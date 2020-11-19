@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #222831;
+}
+section {
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  color: #fa1c00;
+}
+span {
+  font-weight: bold;
+  color: red;
+  font-family: "Rancho", cursive;
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+h3 {
+  color: #ebebeb;
+}
+.intro {
+  transform: translate(0px, 100px);
+}
+.icon {
+  margin-left: 10px;
+}
+#whatsapp {
+  color: #25d366;
+  font-size: 35px;
+}
+
+#git {
+  color: aliceblue;
+  font-size: 35px;
+}
+#twitter {
+  color: #00acee;
+  font-size: 35px;
+}
+.btn {
+  margin: 70px auto 0;
+  transform: translate(0px, 90px);
+}
+.btn a {
+  text-decoration: none;
+  width: 150px;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 12px 0;
+  color: white;
+  border: 0.5px solid white;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+.btn a span {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+.btn a:hover span {
+  width: 100%;
+}
+.btn a:hover {
+  color: black;
+}
